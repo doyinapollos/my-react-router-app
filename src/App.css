@@ -1,38 +1,116 @@
-.App {
-  text-align: center;
+.header {
+    width: 100%;
+    height: 70px;
+    background-color: red;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.navbar {
+    width: 100%;
+    height: inherit;
+    display: flex;
+    flex-direction: row;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.navbar--logo--div {}
+
+.navbar--logo {
+    width: 100px;
+    height: 60px;
+    margin-left: 0px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.navbar--ul {
+    width: 80%;
+    display: flex;
+    list-style-type: none;
+    margin-right: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+.home {
+    margin-top: 30px;
+    width: 100%;
+    height: 400px;
+    background-image: url('https://cdn.thenigerianvoice.com/story/XGltYWdlc1xjb250ZW50XHU4cGN0MjFzcjRfbmlnZXJpYW5kaXNoZXMuanBnfDUwMHwzNTB8.jpg');
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.menu-item-div {
+    display: flex;
+}
+
+.menu {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu--title {
+    font-size: 13px;
+}
+
+.menu--list {
+    width: 90vw;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    place-items: center;
+}
+
+.menu--item--img {
+    width: 200px;
+    height: 120px;
+}
+
+.about--img {
+    width: 100%;
+    height: 300px;
+}
+
+.contact {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact--div {
+    width: 80vw;
+    height: auto;
+    display: flex;
+}
+
+.contact--aside--left {
+    width: 50%;
+    height: auto;
+    background-color: red;
+}
+
+.contact--img {
+    width: 100%;
+    height: 100%;
+}
+
+.contact--aside--right {
+    width: 50%;
+    height: auto;
+    background-color: rgb(57, 223, 235);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-form-div {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer {
+    width: 100%;
+    height: 300px;
+    background-color: aquamarine;
 }
